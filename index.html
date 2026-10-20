@@ -28,120 +28,117 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-
+    <!-- line-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/line-awesome@2/dist/line-awesome/css/line-awesome.min.css"
+    />
     <!-- style -->
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <header class="header">
-      <nav
-        class="flex container mx-auto items-center w-full h-20 px-4 bg-yellow-500"
-      >
-        <div class="logo bg-red-500 mr-14">
-          <img src="./images/logo.svg" alt="#" class="w-40" />
+      <nav class="navbar container">
+        <div class="logo">
+          <img src="./images/logo.svg" alt="#" height="30" width="147" />
         </div>
         <ul
-          class="flex font-medium mx-10 p-4 md:p-0 md:space-x-8 rtl:space-x-reverse bg-orange-500"
+          class="flex navbar-nav order-2 hidden w-full flex-[0_0_100%] lg:order-1 lg:flex lg:w-auto lg:flex-auto lg:justify-center lg:space-x-5"
         >
           <li>
-            <a
-              href="#"
-              class="block py-2 px-3 bg-brand rounded md:bg-transparent md:text-fg-brand md:p-0"
-              aria-current="page"
-              >Home</a
-            >
-          </li>
-          <!-- Dropdown menu -->
-          <!-- <div
-                    id="dropdownNavbar"
-                    class="z-10 hidden bg-neutral-primary-medium border border-default-medium rounded-base shadow-lg w-44"
-                  >
-                    <ul
-                      class="p-2 text-sm text-body font-medium"
-                      aria-labelledby="dropdownNvbarButton"
-                    >
-                      <li>
-                        <a
-                          href="#"
-                          class="inline-flex items-center w-full p-2 hover:bg-neutral-tertiary-medium hover:text-heading rounded"
-                          >Dashboard</a
-                        >
-                      </li>
-                      <li>
-                        <a
-                          href="#"
-                          class="inline-flex items-center w-full p-2 hover:bg-neutral-tertiary-medium hover:text-heading rounded"
-                          >Settings</a
-                        >
-                      </li>
-                      <li>
-                        <a
-                          href="#"
-                          class="inline-flex items-center w-full p-2 hover:bg-neutral-tertiary-medium hover:text-heading rounded"
-                          >Earnings</a
-                        >
-                      </li>
-                      <li>
-                        <a
-                          href="#"
-                          class="inline-flex items-center w-full p-2 hover:bg-neutral-tertiary-medium hover:text-heading rounded"
-                          >Sign out</a
-                        >
-                      </li>
-                    </ul>
-                  </div> -->
-          <li>
-            <a
-              href="#"
-              class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent"
-              >Services</a
-            >
+            <a href="#" class="nav-link active">Home</a>
           </li>
           <li>
-            <a
-              href="#"
-              class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent"
-              >Pricing</a
-            >
+            <a href="#" class="nav-link">About</a>
           </li>
           <li>
-            <a
-              href="#"
-              class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent"
-              >Contact</a
-            >
+            <a href="#" class="nav-link">Blog</a>
           </li>
           <li>
-            <a
-              href="#"
-              class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent"
-              >Contact</a
-            >
+            <a href="#" class="nav-link">features</a>
           </li>
           <li>
-            <a
-              href="#"
-              class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent"
-              >Contact</a
+            <a href="#" class="nav-link">How It Work</a>
+          </li>
+          <li class="nav-item nav-dropdown group relative">
+            <span class="nav-link inline-flex! items-center">
+              Pages
+              <svg class="h-4 w-4 fill-current" viewBox="0 0 20 20">
+                <path
+                  d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
+                />
+              </svg>
+            </span>
+            <ul
+              class="nav-dropdown-list hidden group-hover:block lg:invisible lg:absolute lg:block lg:opacity-0 lg:group-hover:visible lg:group-hover:opacity-100"
             >
+              <li class="nav-dropdown-item">
+                <a href="#" class="nav-dropdown-link">Career</a>
+              </li>
+              <li class="nav-dropdown-item">
+                <a href="#" class="nav-dropdown-link">Career Single</a>
+              </li>
+              <li class="nav-dropdown-item">
+                <a href="#" class="nav-dropdown-link">Integrations</a>
+              </li>
+              <li class="nav-dropdown-item">
+                <a href="#" class="nav-dropdown-link">Integration Single</a>
+              </li>
+              <li class="nav-dropdown-item">
+                <a href="#" class="nav-dropdown-link">Pricing</a>
+              </li>
+              <li class="nav-dropdown-item">
+                <a href="#" class="nav-dropdown-link">Changelogs</a>
+              </li>
+              <li class="nav-dropdown-item">
+                <a href="#" class="nav-dropdown-link">Terms & Conditions</a>
+              </li>
+            </ul>
           </li>
           <li>
-            <a
-              href="#"
-              class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent"
-              >Contact</a
-            >
+            <a href="#" class="nav-link">Contact</a>
           </li>
         </ul>
 
-        <button
-          class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+        <div
+          class="order-1 ml-auto hidden items-center md:order-2 md:ml-0 lg:flex"
         >
-          Sing Up Now
-        </button>
+          <a class="btn btn-white btn-sm" href="#">Sing Up Now</a>
+        </div>
       </nav>
     </header>
-    <main></main>
+
+    <section class="carousel">
+      <div class="container">
+        <div class="carousel_content">
+          <div class="carousel_left">
+            <div class="title">
+              <h1>Scale design & dev operations with Avocode Enterprise</h1>
+              <p>
+                A fully integrated suite of authentication & authoriz products,
+                Stytch’s platform removes the headache of.
+              </p>
+              <a class="btn btn-white mt-8" href="#">Download The Theme</a>
+            </div>
+          </div>
+          <div class="lg:col-6">
+            <img
+              class="w-full object-contain"
+              src="./images/banner-img.png"
+              width="603"
+              height="396"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+      <img
+        class="banner-shape absolute -top-28 right-0 -z-[1] w-full max-w-[30%]"
+        src="./images/banner-shape.svg"
+        alt=""
+      />
+    </section>
+
     <footer></footer>
 
     <script
