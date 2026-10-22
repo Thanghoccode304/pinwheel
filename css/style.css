@@ -90,6 +90,7 @@ input#nav-toggle:checked ~ #nav-menu {
     display: flex;
   }
 }
+/* header */
 .header {
   top: 0px;
   z-index: 50;
@@ -236,6 +237,8 @@ input#nav-toggle:checked ~ #nav-menu {
   opacity: 1;
   color: rgb(254 96 25);
 }
+
+/* carousel */
 .btn {
   display: inline-block;
   height: 52px;
