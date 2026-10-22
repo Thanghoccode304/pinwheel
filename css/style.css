@@ -1,6 +1,3 @@
-* {
-  font-family: "Merriweather", "Oswald", "Roboto", sans-serif;
-}
 *,
 ::before,
 ::after {
@@ -12,6 +9,7 @@
 ::before,
 ::after {
   --tw-content: "";
+}
 
 body {
   background-color: rgb(250 250 250);
@@ -72,11 +70,13 @@ h6 {
   --tw-text-opacity: 1;
   color: rgb(34 34 34 / var(--tw-text-opacity));
 }
-ul {
+
+/* ul {
   list-style: none;
   margin: 0;
   padding: 0;
-}
+} */
+
 @media (min-width: 1024px) {
   input#nav-toggle:checked ~ label#hide-button {
     display: none;
