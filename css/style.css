@@ -420,7 +420,7 @@ input#nav-toggle:checked ~ #nav-menu {
 
 .review-rating img {
   margin: 0 5px;
-  justify-items: center;
+  justify-content: center;
 }
 
 .swiper {
